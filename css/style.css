@@ -1,0 +1,623 @@
+@import "grid.css";
+/* normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+.btn {
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 2.25em;
+  color: #262626;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.8em;
+  white-space: nowrap;
+  background-color: #40955b;
+  cursor: pointer;
+  border: 0;
+  margin: 0;
+  padding: 0.3em 2em;
+  min-width: 40px;
+}
+.btn--small {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.8em;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0.2em 1em;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.btn--small:hover {
+  text-decoration: none;
+  background-color: #204b2e;
+  color: #fff;
+}
+.btn--small:active,
+.btn--small:focus {
+  outline: none;
+}
+.btn--medium {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em;
+  white-space: nowrap;
+  padding: 0.3em 2em;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.btn--medium:hover {
+  text-decoration: none;
+  background-color: #204b2e;
+  color: #fff;
+}
+.btn--medium:active,
+.btn--medium:focus {
+  outline: none;
+}
+.btn--large {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em;
+  white-space: nowrap;
+  padding: 0.6em 4.2em;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.btn--large:hover {
+  text-decoration: none;
+  background-color: #204b2e;
+  color: #fff;
+}
+.btn--large:active,
+.btn--large:focus {
+  outline: none;
+}
+.btn--secondary {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.9em;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0.5em 2.5em;
+  color: #fff;
+  background-color: #97c0d9;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.btn--secondary:hover {
+  text-decoration: none;
+  background-color: #6fa8ca;
+}
+.btn--secondary:active,
+.btn--secondary:focus {
+  outline: none;
+}
+.btn--alert {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.9em;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0.5em 2.5em;
+  color: #fff;
+  background-color: #c31111;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.btn--alert:hover {
+  text-decoration: none;
+  background-color: #eb1616;
+}
+.btn--alert:active,
+.btn--alert:focus {
+  outline: none;
+}
+.btn--ghost {
+  line-height: 2.25em;
+  color: #40955b;
+  background-color: transparent;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em;
+  border: 1px solid #40955b;
+  white-space: nowrap;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.3em 3em;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+.btn--ghost:hover {
+  text-decoration: none;
+  background-color: #40955b;
+  color: #fff;
+}
+.btn--ghost:active,
+.btn--ghost:focus {
+  outline: none;
+}
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300");
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif, arial;
+  padding: 2em;
+}
+header {
+  padding: 2em;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.inline {
+  display: inline;
+}
+.clearfix {
+  clear: border-top;
+}
+.rounded {
+  border-radius: 1em;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0;
+}
+h2 {
+  font-size: 2.3em;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0;
+}
+h3 {
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: 0;
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0;
+}
+h5 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin: 0;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #acacac;
+}
+label {
+  display: block;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+img {
+  border: 0;
+}
+textarea {
+  resize: vertical;
+  display: block;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  margin: 1em;
+}
+ul img,
+li img {
+  margin-right: 1em;
+}
+ol {
+  list-style-type: none;
+  counter-reset: li-counter;
+}
+ol p:before {
+  padding: 0.2em 0.5em;
+  z-index: 1;
+  content: counter(li-counter);
+  counter-increment: li-counter;
+}
+ul.styled {
+  list-style: circle;
+}
+table {
+  width: 900px;
+  max-width: 100%;
+  text-align: center;
+  display: table-cell;
+  border-spacing: 0px;
+}
+thead:first-child,
+td:first-child {
+  width: 300px;
+  text-align: left;
+}
+th,
+td,
+tr {
+  width: 100%;
+  padding: 1em;
+  margin: 0;
+  border-bottom: 1px solid #a6a6a6;
+}
+tfoot {
+  font-weight: bold;
+  color: #000;
+  background-color: #ededeb;
+}
+pre {
+  white-space: pre-wrap;
+}
+section {
+  margin: 1em 0em;
+  padding: 0em;
+  clear: both;
+  overflow: hidden;
+}
+input,
+button,
+select,
+textarea {
+  padding: 0.7em;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid #000;
+  color: #272822;
+}
+select {
+  padding: 0.5em;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.img-rounded {
+  border-radius: 6px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.img-thumbnail {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all all ease-out;
+  -o-transition: all all ease-out;
+  -webkit-transition: all all ease-out;
+  transition: all all ease-out;
+}
+::selection {
+  background: #e95a6e;
+  color: #fff;
+}
+::-moz-selection {
+  background: #e95a6e;
+  color: #fff;
+}
+img.valign {
+  vertical-align: middle;
+}
+.wrap {
+  max-width: 978px;
+  margin: 0 auto;
+}
+.alert {
+  margin: 1em;
+  font-size: 0.8em;
+  min-width: 300px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  padding: 0.8em;
+}
+.alert--success {
+  border-color: #a1f583;
+  background-color: #8af264;
+  color: #349e0d;
+}
+.alert--error {
+  border-color: #ec2424;
+  background-color: #c31111;
+  color: #f37676;
+}
+input,
+textarea {
+  margin: 1.7em 0;
+}
+input.rounded,
+textarea.rounded {
+  border-radius: 7px;
+}
+input.small,
+textarea.small {
+  font-size: 0.7em;
+  padding: 0.5em;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 1em;
+}
+@media only screen and (max-width: 32em) {
+  body {
+    padding: 0em;
+  }
+  body >section {
+    padding: 1em;
+  }
+  input[type="text"],
+  textarea,
+  select {
+    margin: 0;
+    padding: 0.8em;
+    width: 100%;
+  }
+  textarea {
+    margin: 0;
+    padding: 0.8em;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 32em) {
+  body > section {
+    padding: 2em;
+  }
+  input[type="text"] {
+    padding: 0.8em;
+  }
+}
+#typography span {
+  font-size: 0.8em;
+}
+#buttons {
+  text-align: center;
+}
+.grid {
+  overflow: hidden;
+}
+.boxed > div {
+  border: 1px solid #000;
+  background-color: #fa8072;
+  overflor: hidden;
+  padding: 0.51em;
+}
+.boxed > div:hover {
+  background-color: #f8513d;
+}
+/*
+TODO
+----
+a:links:hover
+text
+form example
+github
+fonts - iconmoon - social 
+more media-queries
+review BEM
+radio btns
+*/

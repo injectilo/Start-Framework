@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Start Framework</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Start Framework</h1>
+
+	<section id="grids">
+		<h1>The Grid</h1>
+		<section class="grid boxed">
+	      <div class="col-1">.col-1</div>
+	      <div class="col-11">.col-11</div>
+	      <div class="col-2">.col-2</div>
+	      <div class="col-10">.col-10</div>
+	      <div class="col-3">.col-3</div>
+	      <div class="col-9">.col-9</div>
+	      <div class="col-4">.col-4</div>
+	      <div class="col-8">.col-8</div>
+	      <div class="col-5">.col-5</div>
+	      <div class="col-7">.col-7</div>
+	      <div class="col-6">.col-6</div>
+	      <div class="col-6">.col-6</div>
+	      <div class="col-7">.col-7</div>
+	      <div class="col-5">.col-5</div>
+	      <div class="col-8">.col-8</div>
+	      <div class="col-4">.col-4</div>
+	      <div class="col-9">.col-9</div>
+	      <div class="col-3">.col-3</div>
+	      <div class="col-10">.col-10</div>
+	      <div class="col-2">.col-2</div>
+	      <div class="col-11">.col-11</div>
+	      <div class="col-1">.col-1</div>
+	      <div class="col-12">.col-12</div>
+	    </section>
+
+	    <section class="grid boxed">
+	      <h2>Example 1</h2>
+	      <div class="col-4">.col-4</div>
+	      <div class="col-4">.col-4</div>
+	      <div class="col-4">.col-4</div>
+	      <div class="col-3">.col-3</div>
+	      <div class="col-3">.col-3</div>
+	      <div class="col-3">.col-3</div>
+	      <div class="col-3">.col-3</div>
+	    </section>
+	    <section class="grid boxed">
+	      <h2>Example 2 Nested</h2>
+	      <div class="col-2">.col-2</div>
+	      <div class="col-2">.col-2</div>
+	      <div class="col-2">
+	        <div class="col-6">.col-6</div>
+	        <div class="col-6">.col-6</div>
+	      </div>
+	      <div class="col-2">.col-2</div>
+	      <div class="col-2">.col-2</div>
+	      <div class="col-2">.col-2</div>
+	    </section>
+	</section>
+	<section id="buttons">
+		<button class="btn btn--ghost">btn--ghost</button>
+		<section>
+		<button class="btn btn--small">btn--small</button>
+		<button class="btn btn--medium">btn--medium</button>
+		<button class="btn btn--large">btn--large</button>
+		</section>
+		<button class="btn btn--medium rounded">btn--rounded</button>
+		<button class="btn btn--secondary">btn--secondary</button>
+		<button class="btn btn--alert">btn--alert</button>
+	</section>
+	<section id="fields" class="grid">
+		<h2>Form elements</h2>
+		<div id="block1" class="col-4">
+			<label for="input1">Label_1</label>
+		<input type="text" id="input1" placeholder="Placeholder">
+
+		<label for="input2">Label_2</label>
+		<input type="text" id="input2" placeholder="Placeholder" size="35">
+
+		<label for="textarea1">Label_3</label>
+		<textarea type="text" id="textarea1" placeholder="Placeholder" ></textarea>
+		</div>
+
+		<div id="block2" class="col-4">
+			<label for="input3">Label_4</label>
+		<input type="text" id="input3" class="rounded" placeholder="Placeholder">
+
+		<label for="input4">Label_5</label>
+		<input type="text" id="input4" class="rounded" placeholder="Placeholder" size="35">
+
+
+		<label for="textarea2">Label_6</label>
+		<textarea type="text" id="textarea2" class="rounded" placeholder="Placeholder" size="35"></textarea>
+
+		</div>
+
+
+		<div id="block3" class="col-4">
+			<label for="input5">Label_7</label>
+		<input type="text" id="input5" class="small" placeholder="Placeholder">
+
+		<label for="input6">Label_8</label>
+		<input type="text" id="input6" class="small" placeholder="Placeholder" size="35">
+
+		<label>Radios</label>
+		<input type="radio" name="options" value="1">Option1
+		<input type="radio" name="options" value="2">Option2
+		<label>Checks</label>
+		<input type="checkbox" name="check1" value="check1">Check_1
+		<input type="checkbox" name="check2" value="check2" checked>Check_2
+		<input type="checkbox" name="check3" value="check3">Check_3
+		<label>Select</label>
+		<select name="list" id="list">
+			<option value="1">Option1</option>
+			<option value="2">Option2</option>
+		</select>
+		</div>
+		
+	</section>
+	
+	
+	<section id="lists">
+		<div class="wrap">
+			<h1>Lists</h1>
+			<div class="col-4">
+			<ul>
+				<li>First list option</li>
+				<li>Second list option</li>
+				<li>Third list option</li>
+			</ul>
+		</div>
+		<div class="col-4">
+			<ol>
+				<li><p>First list option</p></li>
+				<li><p>Second list option</p></li>
+				<li><p>Third list option</p></li>
+			</ol>
+		</div>
+		</div>
+		<div class="col-4">
+			<ul class="styled">
+				<li>First list option</li>
+				<li>Second list option</li>
+				<li>Third list option</li>
+			</ul>
+		</div>
+		</div>
+		
+	</section>
+	<section id="typography">
+		<div class="wrap">
+		<h1>Heading h1</h1>
+		<span>3em</span>
+		<h2>Heading h2</h2>
+		<span>2.3em</span>
+		<h3>Heading h3</h3>
+		<span>2em</span>
+		<h4>Heading h4</h4>
+		<span>1.5em</span>
+		<h5>Heading h5</h5>
+		<span>1.2em</span>
+		</div>
+	</section>
+
+<section id="alerts">
+	<div class="wrap">
+		<h2>Alerts</h2>
+		<div class="alert alert--success">Well done! Alert message SUCCESS</div>
+		<div class="alert alert--error">Wrong! Alert message ERROR</div>
+	</div>
+</section>
+<section id="form"></section>
+	<section id="table">
+		<div class="wrap">
+			<h1>Table</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>Products</th>
+					<th>Units</th>
+					<th>Price</th>
+					<th>Total</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr> 
+					<td>Product name</td>
+					<td>1</td>
+					<td>10€</td> 
+					<td>10€</td>
+				</tr>
+				<tr>
+					<td>Product name</td>
+					<td>2</td>
+					<td>20€</td>
+					<td>40€</td>
+				</tr>
+				<tr>
+					<td>Product name</td>
+					<td>2</td>
+					<td>30€</td>
+					<td>60€</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>110€</td>
+			</tfoot>
+		</table>
+		</div>
+		
+	</section>
+	
+</body>
+</html>
