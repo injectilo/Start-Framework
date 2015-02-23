@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Form w/ Start Framework</title>
+<!-- <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script> -->
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<style>
+
+</style>
+<body>
+<h1 align="center">Form w/Start Framework</h1>
+<section class="form">
+  <form id="form1" name="form1" method="post" action="">
+  <div class="wrap">
+    <label for="name"><strong>Name</strong></label>
+  <input type="text" name="name" id="name" placeholder="Your name"  />
+
+  <label for="email"><strong>E-Mail <span class="required">*</span></strong></label>
+  <input type="text" name="email" id="email" placeholder="name@domain.com" required />
+
+  <label for="phone"><strong>Phone</strong></label>
+  <input name="phone" type="tel" id="phone" placeholder="Phone number" size="9"/>
+
+    <label for="message"><strong>Message</strong></label>
+    <textarea name="message" placeholder="Your message" id="message"></textarea>
+  <p>
+    <input type="reset" name="button" id="button" value="Reset" class="btn"/>
+    <input type="submit" name="button2" id="button2" value="Submit Form" class="btn" />
+  </p>
+  </div>
+</form>
+</section>
+
+</body>
+</html>

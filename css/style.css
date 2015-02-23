@@ -188,7 +188,7 @@ th {
   vertical-align: middle;
   font-size: 0.8em;
   white-space: nowrap;
-  background-color: #40955b;
+  background-color: #98e6e7;
   cursor: pointer;
   border: 0;
   margin: 0;
@@ -209,7 +209,7 @@ th {
 }
 .btn--small:hover {
   text-decoration: none;
-  background-color: #204b2e;
+  background-color: #249a9b;
   color: #fff;
 }
 .btn--small:active,
@@ -229,7 +229,7 @@ th {
 }
 .btn--medium:hover {
   text-decoration: none;
-  background-color: #204b2e;
+  background-color: #249a9b;
   color: #fff;
 }
 .btn--medium:active,
@@ -249,7 +249,7 @@ th {
 }
 .btn--large:hover {
   text-decoration: none;
-  background-color: #204b2e;
+  background-color: #249a9b;
   color: #fff;
 }
 .btn--large:active,
@@ -302,12 +302,12 @@ th {
 }
 .btn--ghost {
   line-height: 2.25em;
-  color: #40955b;
+  color: #98e6e7;
   background-color: transparent;
   text-align: center;
   vertical-align: middle;
   font-size: 1em;
-  border: 1px solid #40955b;
+  border: 1px solid #98e6e7;
   white-space: nowrap;
   font-weight: bold;
   margin: 0;
@@ -319,7 +319,7 @@ th {
 }
 .btn--ghost:hover {
   text-decoration: none;
-  background-color: #40955b;
+  background-color: #98e6e7;
   color: #fff;
 }
 .btn--ghost:active,
@@ -478,7 +478,7 @@ select {
   padding: 0.5em;
 }
 a {
-  color: #40955b;
+  color: #98e6e7;
   text-decoration: none;
 }
 a:hover,
@@ -543,6 +543,10 @@ img.valign {
   border-color: #ec2424;
   background-color: #c31111;
   color: #f37676;
+}
+.required {
+  font-size: 0.8em;
+  color: #c31111;
 }
 input,
 textarea {
