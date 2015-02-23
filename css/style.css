@@ -478,14 +478,12 @@ select {
   padding: 0.5em;
 }
 a {
+  color: #40955b;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  text-decoration: underline;
-  outline: thin dotted #333;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+  color: #000;
 }
 .img-responsive {
   display: block;
@@ -594,8 +592,11 @@ input[type="radio"] {
 #typography span {
   font-size: 0.8em;
 }
-#buttons {
+#buttons .grid {
   text-align: center;
+}
+#buttons .grid div[class*="col-"] {
+  margin: 2em 0;
 }
 .grid {
   overflow: hidden;
@@ -615,9 +616,10 @@ TODO
 a:links:hover
 text
 form example
-github
 fonts - iconmoon - social 
 more media-queries
+readme
 review BEM
 radio btns
+usage & documentation
 */
