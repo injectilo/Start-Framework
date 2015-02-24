@@ -1,15 +1,19 @@
 @media only screen and (max-width: 32em)
   /* Mobile first queries */
   body
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
     font-size 0.9em
     padding 0em
-    box-sizing: border-box;
 
   body > section
     padding 0.3em
      
 
   input[type="text"],[type="number"],[type="tel"],textarea, select
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
     box-sizing: border-box;
     margin 0.2em
     padding 0.8em
@@ -31,6 +35,5 @@
 
   input[type="text"]
     padding 0.8em
-
 
 /*@media print*/
