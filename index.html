@@ -236,6 +236,28 @@
 			<div class="col-4 bg-facebook"><span class="icon-facebook"></span> .icon-facebook</div>
 			<div class="col-4 bg-googleplus"><span class="icon-googleplus"></span> .icon-googleplus</div>
 	</section>
+
+	<section id="form">
+		<h2>Form Example</h2>
+		 <form id="form1" name="form1" method="post" action="">
+  <div class="wrap">
+    <label for="name"><strong>Name</strong></label>
+  <input type="text" name="name" id="name" placeholder="Your name"  class="full"/>
+
+  <label for="email"><strong>E-Mail <span class="required">*</span></strong></label>
+  <input type="text" name="email" id="email" placeholder="name@domain.com" required  class="full"/>
+
+  <label for="phone"><strong>Phone</strong></label>
+  <input name="phone" type="tel" id="phone" placeholder="Phone number" size="9" />
+    <label for="message"><strong>Message</strong></label>
+    <textarea name="message" placeholder="Your message" id="message" class="full"></textarea>
+  <p>
+    <a href="javascript:document.getElementById('form1').reset();"  >Reset</a>
+    <input type="submit" name="button2" id="button2" value="Submit Form" class="btn btn--medium" />
+  </p>
+  </div>
+</form>
+	</section>
 	
 </body>
 </html>
