@@ -552,6 +552,9 @@ img.valign {
   font-size: 0.8em;
   color: #c31111;
 }
+.full {
+  width: 100%;
+}
 input,
 textarea {
   margin: 1.2em 0;
@@ -581,16 +584,15 @@ input[type="number"] {
   background: #3c599b;
   color: #fff;
   padding: 1em;
-  padding: 1em;
 }
 .bg-googleplus {
   background: #da4835;
   color: #fff;
   padding: 1em;
-  padding: 1em;
 }
 @media only screen and (max-width: 32em) {
   body {
+    font-size: 0.8em;
     padding: 0em;
   }
   body >section {
@@ -607,6 +609,11 @@ input[type="number"] {
     margin: 0;
     padding: 0.8em;
     width: 100%;
+  }
+  [class^="icon-"],
+  [class*=" icon-"] {
+    font-size: 1em;
+    margin: 0.2em;
   }
 }
 @media only screen and (min-width: 32em) {
@@ -648,11 +655,11 @@ input[type="number"] {
   text-align: center;
 }
 /*
-TODO
+TO-DO
 ----
 more media-queries
 readme
 review BEM
-radio btns color
 usage & documentation
+radio btns color
 */
