@@ -1,4 +1,5 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300")
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans:400,700");
 
 body
   margin 0
@@ -20,8 +21,9 @@ header
   border-radius 1em
 
 h1
+  font-family 'Droid Sans', 'Open Sans', sans-serif;
   font-size 3em
-  font-weight 300
+  font-weight 600
   line-height 1.5em
   margin 0
   
@@ -34,6 +36,7 @@ h2
 h3
   font-size 2em
   line-height 1.5em
+  font-weight 300
   margin 0
 
 h4
@@ -172,16 +175,15 @@ a
   -webkit-transition all 0.2s ease-in-out
   transition all 0.2s ease-in-out
   
-/*** Overriding The Default Text Selection Color ***/
+/* Overriding */
 ::selection
-  background #e95a6e /* Safari */
+  background #61473A
   color #FFF
   
 ::-moz-selection
-  background #e95a6e /* Firefox */
+  background #61473A /* Firefox */
   color #FFF
 
-/*** hack alineacion vertical imagenes ***/
 img.valign
    vertical-align middle
 
@@ -200,19 +202,19 @@ img.valign
 .alert--success
   border-color lighten(color-success, 20%)
   background-color color-success
-  color darken(color-success, 50%)
+  color darken(color-success, 80%)
 .alert--error
   border-color lighten(color-error, 20%)
   background-color color-error
-  color lighten(color-error, 50%)
+  color lighten(color-error, 90%)
 
 .required
   font-size 0.8em
   color color-error
 
 input, textarea
-  margin 1.7em 0
-  
+  margin 1.2em 0
+
 input.rounded, textarea.rounded
   border-radius 7px
   
@@ -222,3 +224,7 @@ input.small, textarea.small
   
 input[type="checkbox"], input[type="radio"]
   margin-right 1em
+  
+input[type="number"] {
+    -moz-appearance:textfield;
+}

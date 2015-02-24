@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getElementById"
+			],
+			[
+				"styl",
+				"style1"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
 				"te",
 				"text-decoration"
 			],
@@ -244,10 +256,6 @@
 				"border-color"
 			],
 			[
-				"border",
-				"border-width"
-			],
-			[
 				"p",
 				"pointer"
 			],
@@ -456,10 +464,6 @@
 				"coordenadas_mouse"
 			],
 			[
-				"get",
-				"get_distancia"
-			],
-			[
 				"cr",
 				"create_cuad"
 			],
@@ -508,10 +512,6 @@
 				"rgba()"
 			],
 			[
-				"styl",
-				"list-style"
-			],
-			[
 				"backgr",
 				"background-color"
 			]
@@ -520,18 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "/C/xampp/htdocs/lab/buscar_enarray_por_propiedad_y_valor.html",
+			"file": "stylus/start.styl",
 			"settings":
 			{
-				"buffer_size": 1146,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "stylus/basics.styl",
-			"settings":
-			{
-				"buffer_size": 3029,
+				"buffer_size": 3175,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +531,7 @@
 			"file": "stylus/media-queries.styl",
 			"settings":
 			{
-				"buffer_size": 432,
+				"buffer_size": 431,
 				"line_ending": "Windows"
 			}
 		},
@@ -547,7 +539,7 @@
 			"file": "stylus/theme.styl",
 			"settings":
 			{
-				"buffer_size": 547,
+				"buffer_size": 378,
 				"line_ending": "Windows"
 			}
 		},
@@ -555,7 +547,23 @@
 			"file": "stylus/style.styl",
 			"settings":
 			{
-				"buffer_size": 262,
+				"buffer_size": 306,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6173,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/grid.css",
+			"settings":
+			{
+				"buffer_size": 1167,
 				"line_ending": "Windows"
 			}
 		},
@@ -563,7 +571,7 @@
 			"file": "stylus/buttons.styl",
 			"settings":
 			{
-				"buffer_size": 2093,
+				"buffer_size": 2112,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,25 +579,24 @@
 			"file": "stylus/config.styl",
 			"settings":
 			{
-				"buffer_size": 363,
+				"buffer_size": 280,
 				"line_ending": "Windows",
 				"name": "config.less"
 			}
 		},
 		{
-			"file": "/C/xampp/htdocs/lab/keycapture.html",
+			"file": "form.html",
 			"settings":
 			{
-				"buffer_size": 1830,
-				"line_ending": "Windows",
-				"name": "keycapture.html"
+				"buffer_size": 1326,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "/C/xampp/htdocs/formulario_base/fullscreen-formulario.html",
 			"settings":
 			{
-				"buffer_size": 5870,
+				"buffer_size": 2525,
 				"line_ending": "Windows"
 			}
 		}
@@ -646,15 +653,32 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/start/css - copia/config.less",
+		"/C/xampp/htdocs/formulario_base/formulario.php",
+		"/C/Users/Jesus/Desktop/fastclick-master/fastclick-master/lib/fastclick.js",
+		"/C/xampp/htdocs/start/stylus/normalize.styl",
+		"/C/xampp/htdocs/lab/fastclick/test.html",
+		"/C/xampp/htdocs/lab/jumpScript/jump.js",
+		"/C/xampp/htdocs/lab/gfonts-canvas.html",
+		"/C/xampp/htdocs/lab/jump/jump.js",
+		"/C/xampp/htdocs/covadonga/cron.php",
+		"/C/xampp/htdocs/covadonga/lee.php",
+		"/C/xampp/htdocs/covadonga/index.php",
+		"/C/xampp/htdocs/lab/jump/index.html",
+		"/C/xampp/htdocs/lab/fastclick/index.html",
+		"/C/Users/Jesus/Desktop/fastclick-master/fastclick-master/examples/layer.html",
+		"/C/Users/Jesus/Desktop/cbavota-Gridiculous-998d44e/cbavota-Gridiculous-998d44e/gridiculous.css",
+		"/C/xampp/htdocs/lab/keycapture.html",
+		"/C/xampp/htdocs/pdo/conn.php",
+		"/C/xampp/htdocs/lab/buscar_enarray_por_propiedad_y_valor.html",
+		"/C/xampp/htdocs/start/index.html",
 		"/C/xampp/htdocs/start/css/grid.css",
+		"/C/xampp/htdocs/start/css - copia/config.less",
 		"/C/xampp/htdocs/start/css/style.css",
 		"/C/Users/Jesus/Desktop/foundation-5.5.1/css/foundation.css",
 		"/C/xampp/htdocs/start/css/style.less",
 		"/C/xampp/htdocs/tar7/etiquetas.php",
 		"/C/xampp/htdocs/tar7/scripts/ajax.js",
 		"/C/xampp/htdocs/tar7/seleccion.php",
-		"/C/xampp/htdocs/start/index.html",
 		"/C/xampp/htdocs/tar7/conn.php",
 		"/C/xampp/htdocs/tar7/index.html",
 		"/C/xampp/htdocs/start/css/buttons.less",
@@ -666,7 +690,6 @@
 		"/C/xampp/htdocs/grid-css/LightGrid/readme.md",
 		"/C/xampp/htdocs/grid-css/LightGrid/index.html",
 		"/C/xampp/htdocs/LightGrid/index.html",
-		"/C/xampp/htdocs/formulario_base/formulario.php",
 		"/C/xampp/htdocs/grid-css/text.html",
 		"/C/xampp/htdocs/grid-css/readme.md",
 		"/C/xampp/htdocs/grid-css/images.html",
@@ -757,23 +780,7 @@
 		"/C/xampp/htdocs/lab/snes-l.html",
 		"/C/xampp/htdocs/IconHoverEffects/IconHoverEffects/css/component.css",
 		"/C/xampp/htdocs/lab/yoyo.html",
-		"/C/xampp/htdocs/lab/yoyo.less",
-		"/C/xampp/htdocs/covadonga/wp-content/themes/covadonga-child/functions.php",
-		"/C/xampp/htdocs/lab/captcha.html",
-		"/C/xampp/htdocs/lab/tween.html",
-		"/C/xampp/htdocs/lab/js/greensock-js/src/uncompressed/TweenLite.js",
-		"/C/xampp/htdocs/lab/js/greensock-js/src/uncompressed/TweenMax.js",
-		"/C/xampp/htdocs/lab/js/greensock-js/src/uncompressed/TimelineMax.js",
-		"/C/xampp/htdocs/lab/js/greensock-js/src/uncompressed/TimelineLite.js",
-		"/C/xampp/htdocs/lab/js/greensock-js/src/uncompressed/jquery.gsap.js",
-		"/C/xampp/htdocs/hotelmontanes/estilos.css",
-		"/C/xampp/htdocs/log/index.php",
-		"/C/xampp/htdocs/log/.htaccess",
-		"/C/xampp/htdocs/tudanca/lib/analytics.js",
-		"/C/xampp/htdocs/tudanca/lib/functions.js",
-		"/C/Users/Jesus/Desktop/pruebajs.js",
-		"/C/xampp/htdocs/calendario/clases/calendario.php",
-		"/C/xampp/htdocs/calendario/css/calendar.css"
+		"/C/xampp/htdocs/lab/yoyo.less"
 	],
 	"find":
 	{
@@ -802,6 +809,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"required",
+			"mensaje",
+			"Jump",
+			"jump",
+			"Jump",
+			"jump",
+			"div",
+			"col",
 			"6s",
 			"margin",
 			"transi",
@@ -921,15 +936,7 @@
 			"to1",
 			"to2",
 			"_to",
-			"to",
-			"map_road",
-			"map_canvas_road",
-			"map_canvas_satellite",
-			"map_canvas_road",
-			"featureOpts",
-			"styledMapOptions",
-			"map_canvas",
-			"featureOpts"
+			"to"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -947,54 +954,23 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/xampp/htdocs/lab/buscar_enarray_por_propiedad_y_valor.html",
+					"file": "stylus/start.styl",
 					"settings":
 					{
-						"buffer_size": 1146,
+						"buffer_size": 3175,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								718,
-								718
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "stylus/basics.styl",
-					"settings":
-					{
-						"buffer_size": 3029,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2782,
-								2782
+								2950,
+								2950
 							]
 						],
 						"settings":
@@ -1009,17 +985,17 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3455.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "stylus/media-queries.styl",
 					"settings":
 					{
-						"buffer_size": 432,
+						"buffer_size": 431,
 						"regions":
 						{
 						},
@@ -1047,19 +1023,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "stylus/theme.styl",
 					"settings":
 					{
-						"buffer_size": 547,
+						"buffer_size": 378,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								511,
-								511
+								162,
+								162
 							]
 						],
 						"settings":
@@ -1078,19 +1054,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "stylus/style.styl",
 					"settings":
 					{
-						"buffer_size": 262,
+						"buffer_size": 306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								165,
-								165
+								270,
+								270
 							]
 						],
 						"settings":
@@ -1108,19 +1084,82 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "stylus/buttons.styl",
+					"buffer": 4,
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2093,
+						"buffer_size": 6173,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1854,
-								1854
+								181,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/grid.css",
+					"settings":
+					{
+						"buffer_size": 1167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1019,
+								1019
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "stylus/buttons.styl",
+					"settings":
+					{
+						"buffer_size": 2112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								872,
+								872
 							]
 						],
 						"settings":
@@ -1134,25 +1173,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1252.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "stylus/config.styl",
 					"settings":
 					{
-						"buffer_size": 363,
+						"buffer_size": 280,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								141,
-								141
+								18,
+								18
 							]
 						],
 						"settings":
@@ -1171,30 +1210,30 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "/C/xampp/htdocs/lab/keycapture.html",
+					"buffer": 8,
+					"file": "form.html",
 					"settings":
 					{
-						"buffer_size": 1830,
+						"buffer_size": 1326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								393,
-								409
+								1310,
+								1310
 							]
 						],
 						"settings":
 						{
-							"auto_name": "keycapture.html",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1203,19 +1242,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "index.html",
+					"buffer": 9,
+					"file": "/C/xampp/htdocs/formulario_base/fullscreen-formulario.html",
 					"settings":
 					{
-						"buffer_size": 5870,
+						"buffer_size": 2525,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1649,
-								1655
+								2230,
+								2053
 							]
 						],
 						"settings":
@@ -1225,10 +1264,11 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 228.0,
+						"translation.y": 1425.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
