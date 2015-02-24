@@ -1,4 +1,5 @@
 @import "grid.css";
+@import "fonts.css";
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -571,6 +572,23 @@ input[type="radio"] {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+.bg-twitter {
+  background: #5ea9dd;
+  color: #fff;
+  padding: 1em;
+}
+.bg-facebook {
+  background: #3c599b;
+  color: #fff;
+  padding: 1em;
+  padding: 1em;
+}
+.bg-googleplus {
+  background: #da4835;
+  color: #fff;
+  padding: 1em;
+  padding: 1em;
+}
 @media only screen and (max-width: 32em) {
   body {
     padding: 0em;
@@ -620,11 +638,18 @@ input[type="number"] {
 .boxed > div:hover {
   background-color: #feae37;
 }
+[class^="icon-"],
+[class*=" icon-"] {
+  font-size: 2em;
+  margin: 0.5em;
+}
+#icons div {
+  margin: 1em 0;
+  text-align: center;
+}
 /*
 TODO
 ----
-text
-fonts - iconmoon - social 
 more media-queries
 readme
 review BEM
